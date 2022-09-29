@@ -8,7 +8,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/visual/base_link.stl"/>
+          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/collision/base_link.stl"/>
         </geometry>
         <xacro:material_fanuc_gray40 />
       </visual>
@@ -23,7 +23,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/visual/link_1.stl"/>
+          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/collision/link_1.stl"/>
         </geometry>
         <xacro:material_fanuc_yellow />
       </visual>
@@ -38,7 +38,7 @@
       <visual>
         <origin xyz="-0.055 -0.504510 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/visual/link_2.stl"/>
+          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/collision/link_2.stl"/>
         </geometry>
         <xacro:material_fanuc_yellow />
       </visual>
@@ -53,7 +53,7 @@
       <visual>
         <origin xyz="0.0 -0.40615 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/visual/link_3.stl"/>
+          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/collision/link_3.stl"/>
         </geometry>
         <xacro:material_fanuc_yellow />
       </visual>
@@ -68,7 +68,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/visual/link_4.stl"/>
+          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/collision/link_4.stl"/>
         </geometry>
         <xacro:material_fanuc_yellow />
       </visual>
@@ -83,7 +83,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/visual/link_5.stl"/>
+          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/collision/link_5.stl"/>
         </geometry>
         <xacro:material_fanuc_yellow />
       </visual>
@@ -98,7 +98,7 @@
       <visual>
         <origin xyz="-0.060 0 0" rpy="0 ${radians(-90)} 0"/>
         <geometry>
-          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/visual/link_6.stl"/>
+          <mesh filename="package://fanuc_m20id_support/meshes/m20id35/collision/link_6.stl"/>
         </geometry>
         <xacro:material_fanuc_black />
       </visual>
