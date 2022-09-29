@@ -66,14 +66,14 @@
     </link>
     <link name="${prefix}link_4">
       <visual>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0.2857 0 0" rpy="0 0 0"/>
         <geometry>
           <mesh filename="package://fanuc_m20id_support/meshes/m20id35/collision/link_4.stl"/>
         </geometry>
         <xacro:material_fanuc_yellow />
       </visual>
       <collision>
-        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <origin xyz="0.2857 0 0" rpy="0 0 0"/>
         <geometry>
           <mesh filename="package://fanuc_m20id_support/meshes/m20id35/collision/link_4.stl"/>
         </geometry>
@@ -116,42 +116,42 @@
       <parent link="${prefix}base_link"/>
       <child link="${prefix}link_1"/>
       <axis xyz="0 0 1"/>
-      <limit lower="${radians(-175)}" upper="${radians(175)}" effort="0" velocity="${radians(180)}"/>
+      <limit lower="${radians(-170)}" upper="${radians(170)}" effort="0" velocity="${radians(180)}"/>
     </joint>
     <joint name="${prefix}joint_2" type="revolute">
       <origin xyz="0.075 0 0" rpy="0 0 0"/>
       <parent link="${prefix}link_1"/>
       <child link="${prefix}link_2"/>
       <axis xyz="0 1 0"/>
-      <limit lower="${radians(-60)}" upper="${radians(76)}" effort="0" velocity="${radians(90)}"/>
+      <limit lower="${radians(-100)}" upper="${radians(160)}" effort="0" velocity="${radians(180)}"/>
     </joint>
     <joint name="${prefix}joint_3" type="revolute">
       <origin xyz="0 0 0.840" rpy="0 0 0"/>
       <parent link="${prefix}link_2"/>
       <child link="${prefix}link_3"/>
       <axis xyz="0 -1 0"/>
-      <limit lower="${radians(-121)}" upper="${radians(180)}" effort="0" velocity="${radians(85)}"/>
+      <limit lower="${radians(-190)}" upper="${radians(268)}" effort="0" velocity="${radians(200)}"/>
     </joint>
     <joint name="${prefix}joint_4" type="revolute">
       <origin xyz="0 0 0.215" rpy="0 0 0"/>
       <parent link="${prefix}link_3"/>
       <child link="${prefix}link_4"/>
       <axis xyz="-1 0 0"/>
-      <limit lower="${radians(-200)}" upper="${radians(200)}" effort="0" velocity="${radians(120)}"/>
+      <limit lower="${radians(-200)}" upper="${radians(200)}" effort="0" velocity="${radians(350)}"/>
     </joint>
     <joint name="${prefix}joint_5" type="revolute">
       <origin xyz="0.890 0 0" rpy="0 0 0"/>
       <parent link="${prefix}link_4"/>
       <child link="${prefix}link_5"/>
       <axis xyz="0 -1 0"/>
-      <limit lower="${radians(-125)}" upper="${radians(125)}" effort="0" velocity="${radians(120)}"/>
+      <limit lower="${radians(-140)}" upper="${radians(140)}" effort="0" velocity="${radians(350)}"/>
     </joint>
     <joint name="${prefix}joint_6" type="revolute">
       <origin xyz="0.090 0 0" rpy="0 0 0"/>
       <parent link="${prefix}link_5"/>
       <child link="${prefix}link_6"/>
       <axis xyz="-1 0 0"/>
-      <limit lower="${radians(-270)}" upper="${radians(270)}" effort="0" velocity="${radians(200)}"/>
+      <limit lower="${radians(-270)}" upper="${radians(270)}" effort="0" velocity="${radians(400)}"/>
     </joint>
 
     <!-- ROS-Industrial 'base' frame: base_link to Fanuc World Coordinates transform -->

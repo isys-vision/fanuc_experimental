@@ -13,12 +13,12 @@
     </p>
     <p><b>Specifications</b>:</p>
     <ul>
-      <li>M-20id - "Conventional dress-out"</li>
+      <li>M-20iD/35 - "Hollow wrist"</li>
     </ul>
     <p>
       Joint limits and maximum joint velocities are based on the information in
-      the <em>FANUC Robot M-20id Mechanical Unit Operator's Manual</em>
-      version <em>B-83644EN/01</em>. All urdfs are based on the default motion
+      the datasheet <em>FANUC M-20iD/35</em>
+      version <em>MDS-04232EN/01</em>. All urdfs are based on the default motion
       and joint velocity limits, unless noted otherwise (ie: no support for
       high speed joints, extended / limited motion ranges or other options).
     </p>
