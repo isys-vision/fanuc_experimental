@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<library path="lib/libfanuc_crx10ial_moveit_ikfast_plugin">
+  <class name="fanuc_crx10ial_manipulator/IKFastKinematicsPlugin" type="fanuc_crx10ial_manipulator::IKFastKinematicsPlugin" base_class_type="kinematics::KinematicsBase">
+    <description>IKFast61 plugin for closed-form kinematics of fanuc_crx10ial manipulator</description>
+  </class>
+</library>

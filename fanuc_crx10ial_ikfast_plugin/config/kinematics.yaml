@@ -1,0 +1,2 @@
+manipulator:
+  kinematics_solver: fanuc_crx10ial_manipulator/IKFastKinematicsPlugin
