@@ -1,0 +1,32 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/lionel/Mikado/devel/include/**",
+        "/opt/isys-vision/mikado/include/**",
+        "/opt/ros/one/include/**",
+        "/home/lionel/Mikado/src/ensenso/Entwicklung/source/ensenso/include/**",
+        "/home/lionel/Mikado/src/fanuc/Entwicklung/extern/fanuc/fanuc_driver/include/**",
+        "/home/lionel/Mikado/src/robots/robots.common/Entwicklung/industrial_io_mikado_adapter/include/**",
+        "/home/lionel/Mikado/src/robots/kuka/Entwicklung/extern/kuka_experimental/kuka_cybertech_kr16_r1610_moveit_plugins/include/**",
+        "/home/lionel/Mikado/src/robots/kuka/Entwicklung/extern/kuka_experimental/kuka_eki_hw_interface/include/**",
+        "/home/lionel/Mikado/src/robots/kuka/Entwicklung/extern/kuka_experimental/kuka_rsi_hw_interface/include/**",
+        "/home/lionel/Mikado/src/assistant/Entwicklung/source/mikado_assistant/include/**",
+        "/home/lionel/Mikado/src/core/Entwicklung/source/mikado_logger/include/**",
+        "/home/lionel/Mikado/src/simulator/Entwicklung/source/mikado_simulator/include/**",
+        "/home/lionel/Mikado/src/robots/robots.common/Entwicklung/modbus_wago_io/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

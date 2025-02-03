@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/lionel/Mikado/devel/lib/python3/dist-packages",
+        "/opt/isys-vision/mikado/lib/python3/dist-packages",
+        "/opt/ros/one/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/lionel/Mikado/devel/lib/python3/dist-packages",
+        "/opt/isys-vision/mikado/lib/python3/dist-packages",
+        "/opt/ros/one/lib/python3/dist-packages"
+    ]
+}
